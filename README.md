@@ -1,1 +1,0 @@
-# Capstone Photo App
