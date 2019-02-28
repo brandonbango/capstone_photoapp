@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.4.1'
 
-gem 'rails', '4.2.6'
+gem 'rails', '4.2.8'
 gem 'rails-api', '~>0.4.0'
 gem 'pry-rails', '~>0.3.4'
 gem 'rack-cors', '~>0.4.0', :require => 'rack/cors'
@@ -16,16 +16,13 @@ gem 'sass-rails', '~> 5.0.6'
 gem 'uglifier', '~> 3.0.2'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails', '~>4.2.1'
-gem 'jbuilder', '~> 2.6.0'
+gem 'jbuilder'
 
 group :development do
   gem 'spring', '~>2.0.0'
 end
 
 group :development, :test do
-  gem 'webrick', '~>1.3.1', :platforms=>[:mingw, :mswin, :x64_mingw, :jruby]
-  gem 'tzinfo-data', :platforms=>[:mingw, :mswin, :x64_mingw, :jruby]
-  gem 'sqlite3', '~>1.3.12'
   gem 'byebug', '~>9.0.6'
   gem 'pry-byebug', '~>3.4.0'
   gem 'httparty', '~>0.14.0'
@@ -47,8 +44,8 @@ end
 
 gem 'pg', '~>0.19.0'
 gem 'puma'
-gem 'mongoid', '~>5.1.5'
-gem 'mongo'
+gem 'mongoid', '~>5.4.0'
+gem 'mongo', '~>2.6.0'
 gem 'database_cleaner', '~>1.5.3'
 gem 'factory_girl_rails', '~>4.7.0'
 gem 'faker', '~>1.6.6'
